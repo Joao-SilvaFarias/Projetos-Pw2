@@ -75,7 +75,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     display: 'flex',
+    alignItems: 'center',
     width: '100%',
+    padding: 20,
     gap: 20,
     backgroundColor: '#444',
     overflow: 'auto', 
